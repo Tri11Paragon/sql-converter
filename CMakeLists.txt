@@ -49,7 +49,7 @@ macro(blt_add_project name source type)
     project(sql-converter)
 endmacro()
 
-project(sql-converter VERSION 0.0.2)
+project(sql-converter VERSION 0.0.3)
 
 option(ENABLE_ADDRSAN "Enable the address sanitizer" OFF)
 option(ENABLE_UBSAN "Enable the ub sanitizer" OFF)
